@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
            @Override
            public void onClick(View view) {
                 cr1.stop();
-               cr1.setTextColor(Color.BLUE);
+                cr1.setTextColor(Color.BLUE);
                 tv1.setText(year+"년"+month+"월"+day+"일"+hour+"시"+min+"분 예약완료.");
            }
        });
